@@ -1,4 +1,23 @@
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
 export default function Hero() {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Muhammad Zahran Yudha"],
+      typeSpeed: 50,
+      startDelay: 100,
+      loop: true,
+      showCursor: false,
+      backDelay: 1000,
+      backSpeed: 50,
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
   return (
     <section id="home" className="pt-36">
       <div className="container">
@@ -6,9 +25,11 @@ export default function Hero() {
           <div className="w-full self-center px-4 lg:w-1/2">
             <h1 className="text-base font-semibold text-primary md:text-xl">
               Hello Everyone 👋, My Name Is
-              <span className="block font-bold text-dark text-4xl mt-1 lg:text-5xl">
-                M. Zahran Yudha
-              </span>
+              <span
+                className="block font-bold text-dark text-4xl mt-1 lg:text-5xl"
+                id="nameTyping"
+                ref={el}
+              ></span>
             </h1>
             <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl">
               Web Developer & Founder Of{" "}
