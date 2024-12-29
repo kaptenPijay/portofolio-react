@@ -1,5 +1,5 @@
 import Card from "./Card.jsx";
-export default function Portfolio() {
+export default function Certificate() {
   return (
     <section id="portfolio" className="pt-36 pb-16 bg-slate-100">
       <div className="container">
@@ -19,7 +19,7 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
-        <Card check="portfolio" />
+        <Card check="certificate" />
       </div>
     </section>
   );

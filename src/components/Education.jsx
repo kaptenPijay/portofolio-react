@@ -1,6 +1,6 @@
 export default function Education() {
   return (
-    <div id="education" className="pt-36 pb-32 bg-slate-800">
+    <section id="education" className="pt-36 pb-32 bg-slate-800">
       <div className="container">
         <div className="w-full px-4">
           <div className="mx-auto text-center mb-16">
@@ -48,6 +48,6 @@ export default function Education() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
