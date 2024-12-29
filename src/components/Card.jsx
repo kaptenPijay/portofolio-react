@@ -1,16 +1,10 @@
 import { useEffect, useState } from "react";
-export default function Card(check) {
+export default function Card() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("./data/data.json")
+    fetch("./data/portfolio.json")
       .then((response) => response.json())
-      .then((responseJson) => {
-        const respData =
-          check === "certificate"
-            ? responseJson.filter((d) => d.type === "certificate")
-            : responseJson.filter((d) => d.type === "portfolio");
-        setData(respData);
-      })
+      .then((responseJson) => setData(responseJson))
       .catch((error) => {
         console.log("Error fetching data:", error);
       });

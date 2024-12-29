@@ -19,7 +19,7 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
-        <Card check="portfolio" />
+        <Card />
       </div>
     </section>
   );

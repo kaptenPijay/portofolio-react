@@ -3,6 +3,7 @@ import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Education from "./components/Education.jsx";
+import Achievement from "./components/Achievement.jsx";
 import "./App.css";
 import HumbergerClick from "../public/js/HumbergerClick.js";
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <About />
       <Portfolio />
       <Education />
+      <Achievement />
     </>
   );
 }
