@@ -1,3 +1,4 @@
+import CertificateCard from "./CertificateCard";
 export default function Achievement() {
   return (
     <section id="certificate" className="pt-36 pb-16 bg-slate-100">
@@ -18,6 +19,7 @@ export default function Achievement() {
             </p>
           </div>
         </div>
+        <CertificateCard />
       </div>
     </section>
   );

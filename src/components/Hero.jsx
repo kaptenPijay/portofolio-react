@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import { RiFileDownloadLine } from "@remixicon/react";
+import { RiFileDownloadLine, RiWhatsappLine } from "@remixicon/react";
 export default function Hero() {
   const el = useRef(null);
   useEffect(() => {
@@ -44,9 +44,9 @@ export default function Hero() {
             <a
               href="https://wa.me/+622180864290"
               target="_blank"
-              className="text-base font-semibold text-white bg-primary border-2 border-solid border-white py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out mr-3"
+              className="text-base font-semibold text-white bg-primary border-2 border-solid border-white py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out mr-3 inline-flex mb-5 sm:mt-0"
             >
-              Contact Me
+              Whatsapp <RiWhatsappLine className="ml-2" />
             </a>
             <a
               href="/pdf/cv.pdf"
