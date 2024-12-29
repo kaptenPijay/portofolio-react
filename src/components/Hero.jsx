@@ -11,7 +11,7 @@ export default function Hero() {
               </span>
             </h1>
             <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl">
-              Web Developer & Founder Of
+              Web Developer & Founder Of{" "}
               <span className="text-dark">
                 Cipta Karya Teknologi Nusantara Group
               </span>
@@ -21,7 +21,8 @@ export default function Hero() {
             </p>
 
             <a
-              href="#"
+              href="https://wa.me/+622180864290"
+              target="_blank"
               className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
             >
               Contact Me
