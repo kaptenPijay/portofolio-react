@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
+import { RiFileDownloadLine } from "@remixicon/react";
 export default function Hero() {
   const el = useRef(null);
   useEffect(() => {
@@ -43,9 +44,16 @@ export default function Hero() {
             <a
               href="https://wa.me/+622180864290"
               target="_blank"
-              className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              className="text-base font-semibold text-white bg-primary border-2 border-solid border-white py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out mr-3"
             >
               Contact Me
+            </a>
+            <a
+              href="/pdf/cv.pdf"
+              target="_blank"
+              className="text-base font-semibold text-primary border-2 border-solid border-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out inline-flex items-center"
+            >
+              Download CV <RiFileDownloadLine className="ml-2" />
             </a>
           </div>
 
