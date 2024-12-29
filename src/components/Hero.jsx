@@ -1,10 +1,7 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import { Fireworks } from "@fireworks-js/react";
 export default function Hero() {
   const el = useRef(null);
-  const fireWorksRef = useRef(null);
-
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["Muhammad Zahran Yudha"],
@@ -54,15 +51,6 @@ export default function Hero() {
 
           <div className="w-full self-end px-4 lg:w-1/2">
             <div className="relative mt-10 lg:mt-0 lg:right-0">
-              <Fireworks
-                ref={fireWorksRef}
-                options={{
-                  opacity: 0.9,
-                  explosion: 10,
-                }}
-                className="absolute inset-0 w-full h-screen -z-10 rounded-full"
-              />
-
               <img
                 src="/img/hero.png"
                 alt="M. Zahran Yudha"

@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
+import Portfolio from "./components/Portfolio.jsx";
+import Education from "./components/Education.jsx";
 import "./App.css";
 import HumbergerClick from "../public/js/HumbergerClick.js";
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Navbar HumbergerClick={HumbergerClick} />
       <Hero />
       <About />
+      <Portfolio />
+      <Education />
     </>
   );
 }
