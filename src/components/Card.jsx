@@ -18,7 +18,7 @@ export default function Card() {
           className="block mb-12 p-4 md:w-1/2 group"
           key={items.id}
         >
-          <div className="rounded-lg shadow-md overflow-hidden">
+          <div className="rounded-lg shadow-md overflow-hidden dark:shadow-primary dark:bg-slate-800">
             <div
               className="overflow-hidden relative"
               style={{ backgroundColor: items.custom }}
@@ -32,7 +32,7 @@ export default function Card() {
                 className="w-full transition-transform duration-500 ease-in-out group-hover:scale-125"
               />
             </div>
-            <h3 className="font-semibold text-xl text-dark mt-5 mb-3 px-3 block group-hover:text-primary transition duration-500">
+            <h3 className="font-semibold text-xl text-dark mt-5 mb-3 px-3 block group-hover:text-primary transition duration-500 dark:text-white">
               {items.name}
             </h3>
             <p className="font-medium text-base text-secondary px-3 pb-3">

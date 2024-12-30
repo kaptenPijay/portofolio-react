@@ -1,13 +1,16 @@
 export default function Education() {
   return (
-    <section id="education" className="pt-36 pb-32 bg-slate-800">
+    <section
+      id="education"
+      className="pt-36 pb-32 bg-slate-800 dark:bg-slate-300"
+    >
       <div className="container">
         <div className="w-full px-4">
           <div className="mx-auto text-center mb-16">
             <h4 className="font-semibold text-lg text-primary mb-2">
               EDUCATION
             </h4>
-            <h2 className="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">
+            <h2 className="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark">
               Below are the places where I gained knowledge
             </h2>
             <p className="font-medium text-md text-secondary md:text-lg">
