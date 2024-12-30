@@ -6,21 +6,5 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio distinctio modi eos saepe magnam cumque repellat illum, aperiam beatae nam?",
     "custom": "#23578d",
     "url": "https://dev-ppdb-bengkulu-tengah.pkitapp.com/"
-  },
-  {
-    "id": 1,
-    "image": "/img/portfolio/ppdb.png",
-    "name": "PPDB Bengkulu Tengah",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio distinctio modi eos saepe magnam cumque repellat illum, aperiam beatae nam?",
-    "custom": "#23578d",
-    "url": "https://dev-ppdb-bengkulu-tengah.pkitapp.com/"
-  },
-  {
-    "id": 1,
-    "image": "/img/portfolio/ppdb.png",
-    "name": "PPDB Bengkulu Tengah",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio distinctio modi eos saepe magnam cumque repellat illum, aperiam beatae nam?",
-    "custom": "#23578d",
-    "url": "https://dev-ppdb-bengkulu-tengah.pkitapp.com/"
   }
 ]
