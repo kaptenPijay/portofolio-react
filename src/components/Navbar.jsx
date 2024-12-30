@@ -77,6 +77,26 @@ export default function Navbar(props) {
                     Contact
                   </a>
                 </li>
+                <li className="flex items-center pl-8">
+                  <div className="flex justify-center">
+                    <span className="text-sm text-slate-500">Light</span>
+                    <input
+                      type="checkbox"
+                      id="dark-toggle"
+                      className="hidden"
+                    />
+                    <label
+                      htmlFor="dark-toggle"
+                      className="mx-1"
+                      id="toggleCheck"
+                    >
+                      <div className="w-9 h-5 bg-slate-500 cursor-pointer rounded-full flex items-center p-1">
+                        <div className="toggle-circle w-4 h-4 bg-white rounded-full dark:translate-x-3 transition duration-300 ease-out"></div>
+                      </div>
+                    </label>
+                    <span className="ml-2 text-sm text-slate-500">Dark</span>
+                  </div>
+                </li>
               </ul>
             </nav>
           </div>
