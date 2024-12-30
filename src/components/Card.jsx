@@ -10,7 +10,10 @@ export default function Card() {
       });
   }, []);
   return (
-    <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+    <div
+      className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
+      data-aos="flip-down"
+    >
       {data.map((items) => (
         <a
           href={items.url}
