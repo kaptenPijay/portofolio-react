@@ -28,7 +28,7 @@ export default function Contact() {
                 id="name"
                 readOnly
                 value={"Muhammad Zahran Yudha"}
-                className="w-full bg-slate-200 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary text-center text-primary text-base font-semibold transition duration-500"
+                className="w-full bg-slate-200 p-3 rounded-md outline-none ring-primary ring-1 border-primary text-center text-primary text-base font-semibold transition duration-500 shadow-primary"
               />
             </div>
             <div className="w-full px-4 mb-8">
@@ -43,7 +43,7 @@ export default function Contact() {
                 id="email"
                 readOnly
                 value={"muhammadzahran0205@gmail.com"}
-                className="w-full bg-slate-200 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary text-center text-primary text-base font-semibold transition duration-500"
+                className="w-full bg-slate-200 p-3 rounded-md outline-none ring-primary ring-1 border-primary text-center text-primary text-base font-semibold transition duration-500 shadow-primary"
               />
             </div>
             <div className="w-full px-4 mb-8">
@@ -58,7 +58,7 @@ export default function Contact() {
                 id="phone"
                 readOnly
                 value={"+62-8218-0864-290"}
-                className="w-full bg-slate-200 p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary text-center text-primary text-base font-semibold transition duration-500"
+                className="w-full bg-slate-200 p-3 rounded-md outline-none ring-primary ring-1 border-primary text-center text-primary text-base font-semibold transition duration-500 shadow-primary"
               />
             </div>
           </div>

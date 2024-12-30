@@ -18,6 +18,9 @@ export default {
       screens: {
         "2xl": "1320px",
       },
+      boxShadow: {
+        primary: "0 2px 4px rgba(143, 0, 255, 0.5)",
+      },
     },
   },
   plugins: [],
