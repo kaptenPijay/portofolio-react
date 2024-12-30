@@ -30,17 +30,17 @@ export default function Hero() {
             >
               Hello Everyone 👋, My Name Is
               <span
-                className="block font-bold text-dark text-4xl mt-1 lg:text-5xl"
+                className="block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white"
                 id="nameTyping"
                 ref={el}
               ></span>
             </h1>
             <h2
-              className="font-medium text-secondary text-lg mb-5 lg:text-2xl"
+              className="font-medium text-secondary text-lg mb-5 lg:text-2x"
               data-aos="fade-left"
             >
               Web Developer & Founder Of{" "}
-              <span className="text-dark">
+              <span className="text-dark dark:text-white">
                 Cipta Karya Teknologi Nusantara Group
               </span>
             </h2>
@@ -74,12 +74,12 @@ export default function Hero() {
               <img
                 src="/img/hero.png"
                 alt="M. Zahran Yudha"
-                className="max-w-full mx-auto"
+                className="max-w-full mx-auto relative z-10"
                 width="761"
                 height="761"
                 data-aos="zoom-out"
               />
-              <span className="absolute -z-20 bottom-48 left-1/2 scale-110 -translate-x-1/2 sm:bottom-96 sm:scale-90 md:scale-125 lg:bottom-80 lg:scale-90 xl:scale-125">
+              <span className="absolute bottom-48 left-1/2 scale-110 -translate-x-1/2 sm:bottom-96 sm:scale-90 md:scale-125 lg:bottom-80 lg:scale-90 xl:scale-125">
                 <img
                   src="/img/blob.png"
                   alt="blob"
