@@ -4,6 +4,7 @@ import About from "./components/About.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import Education from "./components/Education.jsx";
 import Achievement from "./components/Achievement.jsx";
+import Contact from "./components/Contact.jsx";
 import "./App.css";
 import HumbergerClick from "../public/js/HumbergerClick.js";
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Portfolio />
       <Education />
       <Achievement />
+      <Contact />
     </>
   );
 }
