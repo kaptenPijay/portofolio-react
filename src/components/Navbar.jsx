@@ -40,7 +40,7 @@ export default function Navbar(props) {
             </button>
             <nav
               id="nav-menu"
-              className="absolute py-5 bg-white shadow-lg rounded-lg max-w-full w-full right-0 top-full opacity-0 invisible transition-all ease-in-out duration-500 lg:block lg:visible lg:opacity-100 lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+              className="absolute py-5 bg-white shadow-lg rounded-lg max-w-full w-full right-0 top-full opacity-0 invisible transition-all ease-in-out duration-500 lg:block lg:visible lg:opacity-100 lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark dark:shadow-primary lg:dark:bg-transparent lg:dark:shadow-none"
             >
               <ul className="block lg:flex">
                 <li className="group">
@@ -91,9 +91,9 @@ export default function Navbar(props) {
                     Contact
                   </a>
                 </li>
-                <li className="flex items-center pl-8">
+                <li className="flex items-center pl-8 mt-3 lg:mt-0">
                   <div className="flex justify-center">
-                    <span className="text-sm text-slate-500 mr-2 mt-[0.3rem] dark:text-white">
+                    <span className="text-sm text-slate-500 mr-2 mt-[0.32rem] dark:text-white">
                       Light
                     </span>
                     <input
@@ -118,7 +118,7 @@ export default function Navbar(props) {
                         </div>
                       </div>
                     </label>
-                    <span className="ml-2 text-sm text-slate-500 mt-[0.3rem] dark:text-white">
+                    <span className="ml-2 text-sm text-slate-500 mt-[0.32rem] dark:text-white">
                       Dark
                     </span>
                   </div>
