@@ -34,7 +34,7 @@ export default function Navbar(props) {
                     href="#home"
                     className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
                   >
-                    Beranda
+                    Homepage
                   </a>
                 </li>
                 <li className="group">
@@ -55,18 +55,18 @@ export default function Navbar(props) {
                 </li>
                 <li className="group">
                   <a
-                    href="#clients"
+                    href="#education"
                     className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
                   >
-                    Clients
+                    Education
                   </a>
                 </li>
                 <li className="group">
                   <a
-                    href="#blog"
+                    href="#certificate"
                     className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
                   >
-                    Blog
+                    Certificate
                   </a>
                 </li>
                 <li className="group">
