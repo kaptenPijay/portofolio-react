@@ -2,13 +2,24 @@
 import { useState, useEffect } from "react";
 import { RiSunFill, RiMoonFill } from "@remixicon/react";
 export default function Navbar(props) {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const checkLocalStorage =
+    localStorage.theme === "dark" ||
+    (!("theme" in localStorage) &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ? true
+      : false;
+
+  const [isDarkMode, setIsDarkMode] = useState(checkLocalStorage);
 
   useEffect(() => {
     const html = document.querySelector("html");
-    isDarkMode === true
-      ? html.classList.add("dark")
-      : html.classList.remove("dark");
+    if (isDarkMode) {
+      html.classList.add("dark");
+      localStorage.theme = "dark";
+    } else {
+      html.classList.remove("dark");
+      localStorage.theme = "light";
+    }
   }, [isDarkMode]);
 
   const handleToggle = (e) => {
