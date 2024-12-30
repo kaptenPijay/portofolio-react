@@ -12,6 +12,7 @@
   "dependencies": {
     "@fireworks-js/react": "^2.10.8",
     "@remixicon/react": "^4.6.0",
+    "aos": "^2.3.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "typed.js": "^2.1.0"

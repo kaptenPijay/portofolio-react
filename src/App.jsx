@@ -8,7 +8,16 @@ import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
 import HumbergerClick from "../public/js/HumbergerClick.js";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   // Navbar Fixed
   window.onscroll = () => {
     const header = document.querySelector("header");
