@@ -18,7 +18,13 @@ export default function Card() {
           className="block mb-12 p-4 md:w-1/2 group"
           key={items.id}
         >
-          <div className="rounded-lg shadow-md overflow-hidden dark:shadow-primary dark:bg-slate-800">
+          <div
+            className="rounded-lg shadow-md overflow-hidden dark:shadow-primary dark:bg-slate-800"
+            data-aos="flip-up"
+            data-aos-offset="0"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+          >
             <div
               className="overflow-hidden relative"
               style={{ backgroundColor: items.custom }}

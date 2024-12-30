@@ -7,13 +7,22 @@ export default function Education() {
       <div className="container">
         <div className="w-full px-4">
           <div className="mx-auto text-center mb-16">
-            <h4 className="font-semibold text-lg text-primary mb-2">
+            <h4
+              className="font-semibold text-lg text-primary mb-2"
+              data-aos="fade-up"
+            >
               EDUCATION
             </h4>
-            <h2 className="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark">
+            <h2
+              className="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark"
+              data-aos="fade-down"
+            >
               Below are the places where I gained knowledge
             </h2>
-            <p className="font-medium text-md text-secondary md:text-lg">
+            <p
+              className="font-medium text-md text-secondary md:text-lg"
+              data-aos="fade-up"
+            >
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum,
               blanditiis? Veniam, maxime.
             </p>

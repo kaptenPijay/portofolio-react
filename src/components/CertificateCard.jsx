@@ -13,7 +13,14 @@ export default function CertificateCard() {
   return (
     <div className="flex flex-wrap">
       {data.map((items) => (
-        <div className="w-full px-4 md:w-1/2 lg:1/3 mx-auto" key={items.id}>
+        <div
+          className="w-full px-4 md:w-1/2 lg:1/3 mx-auto"
+          key={items.id}
+          data-aos="flip-down"
+          data-aos-offset="0"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
           <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10 dark:bg-slate-800">
             <img src={items.image} alt={items.name} className="w-full" />
             <div className="py-8 px-6">
