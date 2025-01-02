@@ -32,9 +32,9 @@ export default function Navbar(props) {
           <div className="px-4">
             <a
               href="#home"
-              className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 block py-6 px-8 transition duration-500 ease-in-out transform hover:scale-105 hover:text-primary text-3xl"
+              className="font-bold text-dark tracking-wider text-3xl dark:text-white hover:text-primary dark:hover:text-primary transition-all ease-in-out duration-300"
             >
-              MZ
+              MZ<span className="text-primary">.</span>
             </a>
           </div>
           <div className="flex items-center px-4">
