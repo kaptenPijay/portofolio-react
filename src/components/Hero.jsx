@@ -30,7 +30,7 @@ export default function Hero() {
             >
               Hello Everyone 👋, My Name Is
               <span
-                className="block font-bold text-dark text-4xl mt-1 lg:text-5xl min-h-[2.3em] dark:text-white sm:min-h-[3rem]"
+                className="block font-bold text-dark text-4xl mt-1 min-h-[2.3em] dark:text-white sm:min-h-[3rem]"
                 id="nameTyping"
                 ref={el}
               ></span>
