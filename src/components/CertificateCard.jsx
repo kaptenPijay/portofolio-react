@@ -17,7 +17,7 @@ export default function CertificateCard() {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10 dark:bg-slate-800">
             <img src={items.image} alt={items.name} className="w-full" />
             <div className="py-8 px-6">
-              <h3 className="mb-3 font-semibold text-xl text-dark hover:text-primary transition duration-500 truncate dark:text-white">
+              <h3 className="mb-3 font-semibold text-xl text-dark hover:text-primary transition duration-500 dark:text-white">
                 {items.name}
               </h3>
               <a

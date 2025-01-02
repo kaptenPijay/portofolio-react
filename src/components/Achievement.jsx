@@ -21,10 +21,9 @@ export default function Achievement() {
               className="font-medium text-md text-secondary md:text-lg"
               data-aos="fade-up"
             >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
-              repellat architecto quod ex possimus nobis ducimus quis, sit vel
-              quo cum, dicta at quaerat et incidunt reprehenderit, neque totam
-              temporibus!20
+              Explore the milestones I{"'"}ve achieved and the certifications
+              I’ve earned, showcasing my commitment to continuous learning and
+              professional growth in the tech industry.
             </p>
           </div>
         </div>

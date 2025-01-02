@@ -20,8 +20,8 @@ export default function Contact() {
               className="font-medium text-md text-secondary md:text-lg"
               data-aos="fade-up"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum,
-              blanditiis? Veniam, maxime.
+              Feel free to reach out! Whether you have a question, project, or
+              collaboration in mind, I’m always open to connecting.
             </p>
           </div>
         </div>
