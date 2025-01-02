@@ -32,9 +32,19 @@ export default function Card() {
                 className="w-full transition-transform duration-500 ease-in-out group-hover:scale-125"
               />
             </div>
-            <h3 className="font-semibold text-xl text-dark mt-5 mb-3 px-3 block group-hover:text-primary transition duration-500 dark:text-white">
+            <h3 className="font-semibold text-xl text-dark mt-5 px-3 block group-hover:text-primary transition duration-500 dark:text-white">
               {items.name}
             </h3>
+            <div className="px-3 py-2 flex flex-wrap gap-3">
+              {items.role.map((d, i) => (
+                <button
+                  className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-3 py-1 rounded-full font-medium text-base dark:text-white"
+                  key={i}
+                >
+                  {d}
+                </button>
+              ))}
+            </div>
             <p className="font-medium text-base text-secondary px-3 pb-3">
               {items.description}
             </p>

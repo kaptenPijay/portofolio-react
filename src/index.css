@@ -7,6 +7,8 @@ html {
 }
 body {
   font-family: "Inter", sans-serif;
+}
+#root {
   overflow-x: hidden;
 }
 .navbar-fixed {

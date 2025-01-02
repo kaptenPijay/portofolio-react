@@ -14,15 +14,19 @@ export default function About() {
               className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl dark:text-white"
               data-aos="fade-down"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur, vitae.
+              Full-Stack Web Developer
             </h2>
             <p
               className="font-medium text-base text-secondary lg:text-lg"
               data-aos="fade-up"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-              mollitia deleniti qui quasi praesentium ex eligendi!
+              I’m a professional Full-Stack Web Developer Passionate about
+              creating scalable and user-friendly web applications. With
+              expertise in front-end and back-end technologies, I turn ideas
+              into impactful digital solutions. I’m also the Founder of Cipta
+              Karya Teknologi Nusantara Group, an IT consulting company
+              dedicated to providing innovative technology solutions. Let’s
+              build something amazing together!
             </p>
           </div>
           <div className="w-full px-4 lg:w-1/2">
@@ -36,8 +40,8 @@ export default function About() {
               className="font-medium text-base text-secondary mb-6 lg:text-lg"
               data-aos="fade-up"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consectetur itaque natus iste provident sequi sunt perspiciatis!
+              Feel free to reach out anytime. You can find me on these
+              platforms:
             </p>
             <div className="flex items-center">
               {/* <!-- Instagram --> */}

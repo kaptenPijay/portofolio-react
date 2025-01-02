@@ -24,10 +24,10 @@ export default function Portfolio() {
               className="font-medium text-md text-secondary md:text-lg"
               data-aos="fade-up"
             >
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
-              repellat architecto quod ex possimus nobis ducimus quis, sit vel
-              quo cum, dicta at quaerat et incidunt reprehenderit, neque totam
-              temporibus!20
+              Here are the applications I have developed. Explore the projects
+              I’ve worked on, ranging from user-friendly web apps to complex
+              digital solutions, all designed with innovation and efficiency in
+              mind.
             </p>
           </div>
         </div>

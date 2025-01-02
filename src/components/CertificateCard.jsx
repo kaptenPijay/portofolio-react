@@ -22,7 +22,7 @@ export default function CertificateCard() {
               </h3>
               <a
                 href={items.url}
-                className="font-medium text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80 inline-flex items-center"
+                className="font-medium text-white bg-gradient-to-r from-blue-500 to-purple-600 py-2 px-4 rounded-lg hover:opacity-80 inline-flex items-center"
               >
                 Preview <RiArrowRightUpLine />
               </a>

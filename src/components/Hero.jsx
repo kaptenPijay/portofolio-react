@@ -54,7 +54,7 @@ export default function Hero() {
             <a
               href="https://wa.me/+6282180864290"
               target="_blank"
-              className="text-base font-semibold text-white bg-primary border-2 border-solid border-white py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out mr-3 inline-flex mb-5 sm:mt-0"
+              className="text-base font-semibold text-white bg-primary border-2 border-solid border-white py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out mr-3 inline-flex mb-5 sm:mt-0 dark:hover:shadow-primary"
               data-aos="zoom-in"
             >
               Whatsapp <RiWhatsappLine className="ml-2" />
@@ -62,7 +62,7 @@ export default function Hero() {
             <a
               href="/pdf/cv.pdf"
               target="_blank"
-              className="text-base font-semibold text-primary border-2 border-solid border-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out inline-flex items-center"
+              className="text-base font-semibold text-primary border-2 border-solid border-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out inline-flex items-center dark:hover:shadow-primary"
               data-aos="zoom-in"
             >
               Download CV <RiFileDownloadLine className="ml-2" />
