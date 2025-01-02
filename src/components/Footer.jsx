@@ -151,19 +151,18 @@ export default function Footer() {
             </a>
           </div>
           <p className="font-medium text-xs text-slate-500 text-center">
-            &copy; Made By{" "}
+            &copy; 2025{" "}
             <a
               href="https://instagram.com/_muh.zahran"
               target="_blank"
               className="text-primary font-bold"
             >
-              M. Zahran Yudha
+              M. Zahran Yudha.
             </a>{" "}
-            2025 With{" "}
+            Built With{" "}
             <a href="https://react.dev/" className="font-bold text-sky-500">
-              React
+              React,{" "}
             </a>
-            ,{" "}
             <a href="https://vite.dev/" className="font-bold text-sky-500">
               Vite
             </a>{" "}

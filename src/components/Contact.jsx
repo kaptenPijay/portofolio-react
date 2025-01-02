@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact" className="pt-36 pb-32 bg-slate-800">
+    <section id="contact" className="pt-36 pb-32 dark:bg-slate-800">
       <div className="container">
         <div className="w-full px-4">
           <div className="mx-auto text-center mb-16">
@@ -29,21 +29,6 @@ export default function Contact() {
           <div className="w-full lg:w-2/3 lg:mx-auto">
             <div className="w-full px-4 mb-8" data-aos="zoom-in">
               <label
-                htmlFor="name"
-                className="text-base text-primary font-bold"
-              >
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                readOnly
-                value={"Muhammad Zahran Yudha"}
-                className="w-full bg-slate-200 p-3 rounded-md outline-none ring-primary ring-1 border-primary text-center text-primary text-base font-semibold transition duration-500 shadow-primary"
-              />
-            </div>
-            <div className="w-full px-4 mb-8" data-aos="zoom-in">
-              <label
                 htmlFor="email"
                 className="text-base text-primary font-bold"
               >
@@ -54,7 +39,7 @@ export default function Contact() {
                 id="email"
                 readOnly
                 value={"muhammadzahran0205@gmail.com"}
-                className="w-full bg-slate-200 p-3 rounded-md outline-none ring-primary ring-1 border-primary text-center text-primary text-base font-semibold transition duration-500 shadow-primary"
+                className="w-full bg-slate-50 p-3 rounded-md outline-none ring-primary ring-1 border-primary text-center text-primary text-base font-semibold transition duration-500 shadow-primary dark:bg-slate-900"
               />
             </div>
             <div className="w-full px-4 mb-8" data-aos="zoom-in">
@@ -69,7 +54,7 @@ export default function Contact() {
                 id="phone"
                 readOnly
                 value={"+62-8218-0864-290"}
-                className="w-full bg-slate-200 p-3 rounded-md outline-none ring-primary ring-1 border-primary text-center text-primary text-base font-semibold transition duration-500 shadow-primary"
+                className="w-full bg-slate-50 p-3 rounded-md outline-none ring-primary ring-1 border-primary text-center text-primary text-base font-semibold transition duration-500 shadow-primary dark:bg-slate-900"
               />
             </div>
           </div>

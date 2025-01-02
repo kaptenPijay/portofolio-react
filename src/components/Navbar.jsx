@@ -32,9 +32,9 @@ export default function Navbar(props) {
           <div className="px-4">
             <a
               href="#home"
-              className="font-bold text-lg text-primary block py-6"
+              className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 block py-6 px-8 transition duration-500 ease-in-out transform hover:scale-105 hover:text-primary text-3xl"
             >
-              Muhammad Zahran Yudha
+              MZ
             </a>
           </div>
           <div className="flex items-center px-4">
@@ -57,7 +57,7 @@ export default function Navbar(props) {
                 <li className="group">
                   <a
                     href="#home"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white transition duration-300"
                   >
                     Homepage
                   </a>
@@ -65,7 +65,7 @@ export default function Navbar(props) {
                 <li className="group">
                   <a
                     href="#about"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white transition duration-300"
                   >
                     About
                   </a>
@@ -73,7 +73,7 @@ export default function Navbar(props) {
                 <li className="group">
                   <a
                     href="#portfolio"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white transition duration-300"
                   >
                     Portfolio
                   </a>
@@ -81,7 +81,7 @@ export default function Navbar(props) {
                 <li className="group">
                   <a
                     href="#education"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white transition duration-300"
                   >
                     Education
                   </a>
@@ -89,7 +89,7 @@ export default function Navbar(props) {
                 <li className="group">
                   <a
                     href="#certificate"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white transition duration-300"
                   >
                     Certificate
                   </a>
@@ -97,7 +97,7 @@ export default function Navbar(props) {
                 <li className="group">
                   <a
                     href="#contact"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white transition duration-300"
                   >
                     Contact
                   </a>
@@ -120,7 +120,7 @@ export default function Navbar(props) {
                       id="toggleCheck"
                     >
                       <div className="w-14 h-7 border-2 border-solid bg-white cursor-pointer rounded-full flex items-center p-1 pb-3 pt-3 dark:bg-slate-500 dark:border-primary">
-                        <div className="toggle-circle transition duration-300 ease-out">
+                        <div className="toggle-circle transition duration-500 ease-out">
                           {isDarkMode ? (
                             <RiMoonFill className="text-white text-xs translate-x-3" />
                           ) : (

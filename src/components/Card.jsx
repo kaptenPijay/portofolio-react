@@ -10,7 +10,7 @@ export default function Card() {
       });
   }, []);
   return (
-    <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+    <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto max-h-[calc(100vh-100px)] overflow-y-auto lg:overflow-y-visible lg:max-h-[100%]">
       {data.map((items) => (
         <a
           href={items.url}
@@ -18,13 +18,7 @@ export default function Card() {
           className="block mb-12 p-4 md:w-1/2 group"
           key={items.id}
         >
-          <div
-            className="rounded-lg shadow-md overflow-hidden dark:shadow-primary dark:bg-slate-800"
-            data-aos="flip-up"
-            data-aos-offset="0"
-            data-aos-delay="300"
-            data-aos-duration="1000"
-          >
+          <div className="rounded-lg shadow-md overflow-hidden dark:shadow-primary dark:bg-slate-800">
             <div
               className="overflow-hidden relative"
               style={{ backgroundColor: items.custom }}
