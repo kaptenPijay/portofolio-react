@@ -16,5 +16,23 @@
     "custom": "#2eab00",
     "url": "https://ben-connect.bengkuluprov.go.id/",
     "role": ["Front-End", "Back-End"]
+  },
+  {
+    "id": 3,
+    "image": "/img/portfolio/e_lapor.png",
+    "name": "Evaluasi Kinerja Kesehatan Kabupaten Kepahiang",
+    "description": "This is a Health Performance Evaluation for Kepahiang District Province Bengkulu application that my team and I developed during my time working as a full-stack web developer with PKIT.",
+    "custom": "#00968f",
+    "url": "https://kinerjakesehatan-kepahiang.pkitapp.com/",
+    "role": ["Back-End"]
+  },
+  {
+    "id": 4,
+    "image": "/img/portfolio/kota_jambi_bahagia.png",
+    "name": "Kota Jambi Bahagia",
+    "description": "This is a website that me and my team created a website for the campaign of a mayoral candidate in Jambi, showcasing their platform, events, and vision for the city's future.",
+    "custom": "#d323c8",
+    "url": "https://www.kotajambibahagia.com/",
+    "role": ["Back-End"]
   }
 ]

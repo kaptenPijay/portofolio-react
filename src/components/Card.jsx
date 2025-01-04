@@ -4,11 +4,12 @@ export default function Card() {
   useEffect(() => {
     fetch("./data/portfolio.json")
       .then((response) => response.json())
-      .then((responseJson) => setData(responseJson))
+      .then((responseJson) => setData(responseJson.reverse()))
       .catch((error) => {
         console.log("Error fetching data:", error);
       });
   }, []);
+
   return (
     <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto max-h-[calc(100vh-100px)] overflow-y-auto lg:overflow-y-visible lg:max-h-[100%]">
       {data.map((items) => (
