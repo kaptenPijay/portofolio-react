@@ -48,7 +48,8 @@ export default function Hero() {
               className="font-medium text-secondary mb-10 leading-relaxed"
               data-aos="fade-down"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A, esse.
+              Want To Know More About Myself? Download My CV or Reach Me on
+              Whatsapp.
             </p>
 
             <a
