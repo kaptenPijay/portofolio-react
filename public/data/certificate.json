@@ -3,6 +3,24 @@
     "id": 1,
     "image": "/img/certificate/be_pemula.png",
     "name": "Dicoding Belajar Membuat Aplikasi Backend Untuk Pemula",
-    "url": "https://www.dicoding.com/certificates/2VX3O1WW4ZYQ"
+    "url": "/pdf/be_pemula.pdf"
+  },
+  {
+    "id": 2,
+    "image": "/img/certificate/sertifikat-31.png",
+    "name": "Kampus Merdeka X Dicoding Academy Cycle 5",
+    "url": "/pdf/lulusan_terbaik.pdf"
+  },
+  {
+    "id": 3,
+    "image": "/img/certificate/certiport.png",
+    "name": "Certiport IT Specialist AI",
+    "url": "/pdf/merged-ai.pdf"
+  },
+  {
+    "id": 4,
+    "image": "/img/certificate/fe_expert.png",
+    "name": "Dicoding Front-End Web Developer Expert",
+    "url": "/pdf/fe_expert.pdf"
   }
 ]

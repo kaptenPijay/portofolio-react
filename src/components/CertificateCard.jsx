@@ -5,7 +5,7 @@ export default function CertificateCard() {
   useEffect(() => {
     fetch("./data/certificate.json")
       .then((response) => response.json())
-      .then((responseJson) => setData(responseJson))
+      .then((responseJson) => setData(responseJson.reverse()))
       .catch((error) => {
         console.log("Error fetching data:", error);
       });
@@ -22,6 +22,7 @@ export default function CertificateCard() {
               </h3>
               <a
                 href={items.url}
+                target="_blank"
                 className="font-medium text-white bg-gradient-to-r from-blue-500 to-purple-600 py-2 px-4 rounded-lg hover:opacity-80 inline-flex items-center"
               >
                 Preview <RiArrowRightUpLine />

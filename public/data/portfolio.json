@@ -34,5 +34,14 @@
     "custom": "#d323c8",
     "url": "https://www.kotajambibahagia.com/",
     "role": ["Front-End"]
+  },
+  {
+    "id": 5,
+    "image": "/img/portfolio/sapa_inspektorat.png",
+    "name": "Sapa Inspektorat Rejang Lebong",
+    "description": "This is a Sapa Inspektorat Rejang Lebong application that my team and I developed during my time working as a full-stack web developer with PKIT.",
+    "custom": "#a3bcfe",
+    "url": "#",
+    "role": ["Front-End"]
   }
 ]
