@@ -83,7 +83,7 @@ export default function About() {
               </a>
               {/* Github */}
               <a
-                href="https://www.github.com/in/kaptenPijay/"
+                href="https://www.github.com/kaptenPijay/"
                 target="_blank"
                 className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-slate-300 border-slate-300 hover:border-primary hover:bg-primary hover:text-white animate duration-300 transition-all ease-in-out"
               >
