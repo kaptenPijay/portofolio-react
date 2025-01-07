@@ -23,8 +23,7 @@ export default function Education() {
               className="font-medium text-md text-secondary md:text-lg"
               data-aos="fade-up"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum,
-              blanditiis? Veniam, maxime.
+              This is the place where I pursue knowledge and deepen my understanding through learning and exploration.
             </p>
           </div>
         </div>
