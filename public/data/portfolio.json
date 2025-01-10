@@ -43,5 +43,23 @@
     "custom": "#a3bcfe",
     "url": "#",
     "role": ["Front-End"]
+  },
+  {
+    "id": 6,
+    "image": "/img/portfolio/warung.png",
+    "name": "Warung Soraya",
+    "description": "This is a Sapa Warung Soraya application that i developed during Kampus Merdeka X Dicoding Academy Cycle 5",
+    "custom": "#212529",
+    "url": "https://main--stellular-nasturtium-11637e.netlify.app/",
+    "role": ["Front-End"]
+  },
+  {
+    "id": 7,
+    "image": "/img/portfolio/monev.png",
+    "name": "Monev PUPR Kabupaten Kaur",
+    "description": "This is a Monev PUPR For Kaur Village application that my team and I developed during my time working as a full-stack web developer with PKIT.",
+    "custom": "#FF7043",
+    "url": "https://simonev-kabkaur.pkitapp.com/",
+    "role": ["Back-End"]
   }
 ]
