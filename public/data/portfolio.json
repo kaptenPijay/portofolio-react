@@ -48,7 +48,7 @@
     "id": 6,
     "image": "/img/portfolio/warung.png",
     "name": "Warung Soraya",
-    "description": "This is a Sapa Warung Soraya application that i developed during Kampus Merdeka X Dicoding Academy Cycle 5",
+    "description": "This is a Warung Soraya application that i developed during Kampus Merdeka X Dicoding Academy Cycle 5",
     "custom": "#212529",
     "url": "https://main--stellular-nasturtium-11637e.netlify.app/",
     "role": ["Front-End"]
