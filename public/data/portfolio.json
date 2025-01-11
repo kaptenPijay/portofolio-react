@@ -70,5 +70,14 @@
     "custom": "#1E47B4",
     "url": "https://pajak-bengkulu-tengah.pkitapp.com/",
     "role": ["Front-End"]
+  },
+  {
+    "id": 9,
+    "image": "/img/portfolio/puskesmas.png",
+    "name": "Kelola Asset Puskesmas Dinkes Bengkulu Selatan",
+    "description": "This is a Website application that my team and I developed during my time working as a full-stack web developer with PKIT. This web could manage the puskesmas/hospital asset like medicine or something else",
+    "custom": "#2D8575",
+    "url": "https://dev-puskesmas-bengkulu-selatan.pkitapp.com/login",
+    "role": ["Front-End", "Back-End"]
   }
 ]
