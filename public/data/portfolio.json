@@ -79,5 +79,14 @@
     "custom": "#2D8575",
     "url": "https://dev-puskesmas-bengkulu-selatan.pkitapp.com/login",
     "role": ["Front-End", "Back-End"]
+  },
+  {
+    "id": 10,
+    "image": "/img/portfolio/nusantaraku.png",
+    "name": "Nusantaraku: \"Jelajahi Ragam Budaya Indonesia\"",
+    "description": "As a country with more than 17,000 islands and hundreds of ethnic groups, Indonesia is home to a variety of traditions, arts, and captivating cultural heritage. However, awareness of this richness is not always evenly spread among the population. Many people are still unfamiliar with the diverse cultures throughout Indonesia, even in their own regions. From children to adults, there is a need to introduce and pass on the existing cultural heritage. Therefore, our team C523-PS057 created NusantaraKu in an effort to address these issues as a Capstone Project in the MSIB Kampus Merdeka Dicoding Indonesia Cycle 5.",
+    "custom": "#e23535",
+    "url": "#",
+    "role": ["Back-End"]
   }
 ]
