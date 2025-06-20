@@ -24,13 +24,13 @@ export default function Card() {
               className="overflow-hidden relative"
               style={{ backgroundColor: items.custom }}
             >
-              <h3 className="w-full text-[10px] text-white font-semibold absolute top-2 group-hover:top-1 transition-all duration-500 text-center sm:top-6 sm:text-base md:top-3 md:text-[11px] lg:text-base lg:top-5">
+              <h3 className="w-full text-[10px] text-white font-semibold absolute top-2 group-hover:top-3 transition-all duration-500 text-center sm:top-6 sm:text-base md:top-3 md:text-[11px] lg:text-base lg:top-5">
                 {items.name}
               </h3>
               <img
                 src={items.image}
                 alt={items.name}
-                className="w-full transition-transform duration-500 ease-in-out group-hover:scale-125"
+                className="w-full max-w-[600px] max-h-[300px] transition-transform duration-500 ease-in-out group-hover:scale-110"
               />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 px-3 block group-hover:text-primary transition duration-500 dark:text-white">
